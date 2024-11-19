@@ -1,0 +1,97 @@
+/* CarCard.css */
+
+.car-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.car-card {
+    width: 800px; /* Increased width for better readability */
+    background-color: #44378e; /* Dark background */
+    color: #fff; /* Light text */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.car-card:hover {
+    transform: translateY(-5px); /* Subtle lift on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+}
+
+.car-title {
+    font-size: 1.5rem; /* Slightly larger title font */
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.car-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #b3b3b3; /* Softer gray for the description */
+    margin: 10px 0;
+}
+
+.car-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Spacing between tags */
+    margin-top: 10px;
+}
+
+.car-tag {
+    background-color: #1e1e1e; /* Slightly darker tag background */
+    color: #66ccff; /* Accent color for tags */
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: capitalize; /* Capitalize tags */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.car-tag:hover {
+    background-color: #66ccff; /* Highlight on hover */
+    color: #121212; /* Inverse text color */
+}
+
+.car-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn-delete,
+.btn-view {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-delete {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #ff0000;
+}
+
+.btn-view {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.btn-view:hover {
+    background-color: #45a049;
+}

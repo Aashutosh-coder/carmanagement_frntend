@@ -1,0 +1,30 @@
+.parent-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    /* width: 900px;  */
+    margin-top: 15px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    width: 600px;
+    font-size: 25px;
+}
+
+.nav-logo{
+    width: 160px;
+    height: 45px;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+}
+
+.left a:hover{
+    color:purple;
+}
